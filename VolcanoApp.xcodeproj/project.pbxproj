@@ -8,18 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		3122FDFF263B3F7500AC3383 /* VolcanoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3122FDFE263B3F7500AC3383 /* VolcanoAppApp.swift */; };
-		3122FE01263B3F7500AC3383 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3122FE00263B3F7500AC3383 /* ContentView.swift */; };
 		3122FE03263B3F7600AC3383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3122FE02263B3F7600AC3383 /* Assets.xcassets */; };
 		3122FE06263B3F7600AC3383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3122FE05263B3F7600AC3383 /* Preview Assets.xcassets */; };
+		3185F16C2640C94D0044F7DE /* AirExplainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3185F16B2640C94D0044F7DE /* AirExplainerView.swift */; };
+		3185F16E2640DFB20044F7DE /* AirQualityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3185F16D2640DFB20044F7DE /* AirQualityView.swift */; };
+		3185F17026417D1F0044F7DE /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3185F16F26417D1F0044F7DE /* VideoView.swift */; };
+		3185F17C26418D320044F7DE /* airPollutants.json in Resources */ = {isa = PBXBuildFile; fileRef = 3185F17B26418D320044F7DE /* airPollutants.json */; };
+		3185F1802641FF580044F7DE /* QualityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3185F17F2641FF580044F7DE /* QualityView.swift */; };
+		31ADB14B263F0CE900D3FC02 /* MainAirView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ADB14A263F0CE900D3FC02 /* MainAirView.swift */; };
+		31ADB14F263F498800D3FC02 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ADB14E263F498800D3FC02 /* MapView.swift */; };
+		31ADB154263F64E500D3FC02 /* ApiModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ADB153263F64E500D3FC02 /* ApiModal.swift */; };
+		31ADB157263F657B00D3FC02 /* ApiStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ADB156263F657B00D3FC02 /* ApiStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3122FDFB263B3F7500AC3383 /* VolcanoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolcanoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3122FDFE263B3F7500AC3383 /* VolcanoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolcanoAppApp.swift; sourceTree = "<group>"; };
-		3122FE00263B3F7500AC3383 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3122FE02263B3F7600AC3383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3122FE05263B3F7600AC3383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3122FE07263B3F7600AC3383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3185F16B2640C94D0044F7DE /* AirExplainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirExplainerView.swift; sourceTree = "<group>"; };
+		3185F16D2640DFB20044F7DE /* AirQualityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityView.swift; sourceTree = "<group>"; };
+		3185F16F26417D1F0044F7DE /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		3185F17B26418D320044F7DE /* airPollutants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = airPollutants.json; sourceTree = "<group>"; };
+		3185F17F2641FF580044F7DE /* QualityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualityView.swift; sourceTree = "<group>"; };
+		31ADB14A263F0CE900D3FC02 /* MainAirView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAirView.swift; sourceTree = "<group>"; };
+		31ADB14E263F498800D3FC02 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		31ADB153263F64E500D3FC02 /* ApiModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModal.swift; sourceTree = "<group>"; };
+		31ADB156263F657B00D3FC02 /* ApiStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +69,9 @@
 			isa = PBXGroup;
 			children = (
 				3122FDFE263B3F7500AC3383 /* VolcanoAppApp.swift */,
-				3122FE00263B3F7500AC3383 /* ContentView.swift */,
+				31ADB155263F655E00D3FC02 /* Resource */,
+				31ADB152263F64D200D3FC02 /* Modals */,
+				31ADB150263F648800D3FC02 /* Views */,
 				3122FE02263B3F7600AC3383 /* Assets.xcassets */,
 				3122FE07263B3F7600AC3383 /* Info.plist */,
 				3122FE04263B3F7600AC3383 /* Preview Content */,
@@ -67,6 +85,44 @@
 				3122FE05263B3F7600AC3383 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3185F181264204420044F7DE /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				3185F16D2640DFB20044F7DE /* AirQualityView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		31ADB150263F648800D3FC02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31ADB14E263F498800D3FC02 /* MapView.swift */,
+				31ADB14A263F0CE900D3FC02 /* MainAirView.swift */,
+				3185F181264204420044F7DE /* SubViews */,
+				3185F17F2641FF580044F7DE /* QualityView.swift */,
+				3185F16B2640C94D0044F7DE /* AirExplainerView.swift */,
+				3185F16F26417D1F0044F7DE /* VideoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		31ADB152263F64D200D3FC02 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				31ADB156263F657B00D3FC02 /* ApiStruct.swift */,
+				31ADB153263F64E500D3FC02 /* ApiModal.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		31ADB155263F655E00D3FC02 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3185F17B26418D320044F7DE /* airPollutants.json */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3185F17C26418D320044F7DE /* airPollutants.json in Resources */,
 				3122FE06263B3F7600AC3383 /* Preview Assets.xcassets in Resources */,
 				3122FE03263B3F7600AC3383 /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3122FE01263B3F7500AC3383 /* ContentView.swift in Sources */,
+				3185F16C2640C94D0044F7DE /* AirExplainerView.swift in Sources */,
+				31ADB154263F64E500D3FC02 /* ApiModal.swift in Sources */,
+				31ADB157263F657B00D3FC02 /* ApiStruct.swift in Sources */,
+				31ADB14F263F498800D3FC02 /* MapView.swift in Sources */,
+				3185F1802641FF580044F7DE /* QualityView.swift in Sources */,
+				31ADB14B263F0CE900D3FC02 /* MainAirView.swift in Sources */,
+				3185F17026417D1F0044F7DE /* VideoView.swift in Sources */,
 				3122FDFF263B3F7500AC3383 /* VolcanoAppApp.swift in Sources */,
+				3185F16E2640DFB20044F7DE /* AirQualityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
